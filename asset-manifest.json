@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/redux-typescript/static/css/main.1a95766a.chunk.css",
-    "main.js": "/redux-typescript/static/js/main.aa2dd595.chunk.js",
-    "main.js.map": "/redux-typescript/static/js/main.aa2dd595.chunk.js.map",
+    "main.js": "/redux-typescript/static/js/main.0ccebada.chunk.js",
+    "main.js.map": "/redux-typescript/static/js/main.0ccebada.chunk.js.map",
     "runtime-main.js": "/redux-typescript/static/js/runtime-main.e917ad99.js",
     "runtime-main.js.map": "/redux-typescript/static/js/runtime-main.e917ad99.js.map",
-    "static/js/2.648c4d5a.chunk.js": "/redux-typescript/static/js/2.648c4d5a.chunk.js",
-    "static/js/2.648c4d5a.chunk.js.map": "/redux-typescript/static/js/2.648c4d5a.chunk.js.map",
+    "static/js/2.9edf4a26.chunk.js": "/redux-typescript/static/js/2.9edf4a26.chunk.js",
+    "static/js/2.9edf4a26.chunk.js.map": "/redux-typescript/static/js/2.9edf4a26.chunk.js.map",
     "index.html": "/redux-typescript/index.html",
     "static/css/main.1a95766a.chunk.css.map": "/redux-typescript/static/css/main.1a95766a.chunk.css.map",
-    "static/js/2.648c4d5a.chunk.js.LICENSE.txt": "/redux-typescript/static/js/2.648c4d5a.chunk.js.LICENSE.txt",
+    "static/js/2.9edf4a26.chunk.js.LICENSE.txt": "/redux-typescript/static/js/2.9edf4a26.chunk.js.LICENSE.txt",
     "static/media/logo.b2e5a01e.svg": "/redux-typescript/static/media/logo.b2e5a01e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e917ad99.js",
-    "static/js/2.648c4d5a.chunk.js",
+    "static/js/2.9edf4a26.chunk.js",
     "static/css/main.1a95766a.chunk.css",
-    "static/js/main.aa2dd595.chunk.js"
+    "static/js/main.0ccebada.chunk.js"
   ]
 }
