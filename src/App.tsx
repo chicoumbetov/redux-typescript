@@ -2,16 +2,41 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import { useFetchBreedsQuery } from './features/dogs/dogs-api-slice'
 
 function App() {
+
+  const { data = [] } = useFetchBreedsQuery();
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        
+        <div>
+          <p>Number of dogs fetched: {data.length}</p>
+          <table>
+            <thead>
+              <th>Name</th>
+              <th>Picture</th>
+            </thead>
+            <tbody>
+              {data.map((breed) => (
+                <tr key={breed.id}>
+                  <td>{breed.name}</td>
+                  <td>
+                    <img 
+                      src={breed.image.url} 
+                      alt={breed.name}
+                      height={259}
+                    />
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
         <span>
           <span>Learn </span>
           <a
